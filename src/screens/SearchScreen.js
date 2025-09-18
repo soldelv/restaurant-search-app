@@ -15,7 +15,7 @@ const SearchScreen = () => {
         });
     };
 
-    return <View>
+    return <View style={{ flex: 1 }}>
         <Searchbar
             term={searchTerm}
             onTermChange={setSearchTerm}
